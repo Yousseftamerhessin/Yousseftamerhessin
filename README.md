@@ -1,6 +1,46 @@
 # Welcome to Youssef Tamer profile!
 
-### Flutter Developer
+<h1 align="center">
+  I'm a <span class="dynamic-text">Flutter Developer</span>
+</h1>
+
+<style>
+  .dynamic-text {
+    font-weight: bold;
+    font-size: 24px;
+    color: #00A8E8;
+    animation: color-change 4s infinite, typing 3s steps(20, end) infinite;
+    border-right: 2px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    width: 0;
+  }
+
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 16ch; /* عدد الأحرف في الكلمة "Flutter Developer" */
+    }
+    100% {
+      width: 0;
+    }
+  }
+
+  @keyframes color-change {
+    0% {
+      color: #00A8E8;
+    }
+    50% {
+      color: #FF6347;
+    }
+    100% {
+      color: #00A8E8;
+    }
+  }
+</style>
 
 📧 **Mail me:**
 - [ytamerhessin@gmail.com](mailto:ytamerhessin@gmail.com)
